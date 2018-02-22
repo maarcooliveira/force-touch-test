@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="me.marcooliveira.forcetouchtest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/sfo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/prod1"/>
+
+        <ImageView
+            android:id="@+id/sq"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/prod2"/>
+
+        <!--<ImageView-->
+            <!--android:id="@+id/sfo"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:src="@drawable/sfo"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/sq"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:src="@drawable/sq"/>-->
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/dialog"
+        layout="@layout/dialog_preview"
+        android:visibility="gone"/>
+
+</FrameLayout>
